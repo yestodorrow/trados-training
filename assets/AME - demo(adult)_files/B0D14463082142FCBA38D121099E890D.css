@@ -1,0 +1,678 @@
+.set-type {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.form-clearfix {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.contact.row {
+	padding-top: 24px; margin-top: 24px; margin-bottom: 12px; border-top-color: rgb(204, 204, 204); border-top-width: 2px; border-top-style: solid;
+}
+.fancybox-skin {
+	background: rgb(255, 255, 255);
+}
+#fancybox-loading {
+	background: url("https://www.mayoclinic.org/IMG-20146864");
+}
+.fancybox-close {
+	background: url("https://www.mayoclinic.org/IMG-20146864");
+}
+.fancybox-prev span {
+	background: url("https://www.mayoclinic.org/IMG-20146864");
+}
+.fancybox-next span {
+	background: url("https://www.mayoclinic.org/IMG-20146864");
+}
+.fancybox-overlay {
+	background: url("https://www.mayoclinic.org/IMG-20146863");
+}
+.ui-datepicker .ui-datepicker-prev {
+	width: 1.5em; height: 1.5em;
+}
+.ui-datepicker .ui-datepicker-next {
+	width: 1.5em; height: 1.5em;
+}
+.ui-widget-header .ui-icon {
+	background-image: url("https://www.mayoclinic.org/IMG-20146865");
+}
+.ui-widget-header {
+	background-image: none;
+}
+.ui-state-default {
+	background-image: none;
+}
+.ui-widget-content .ui-state-default {
+	background-image: none;
+}
+.ui-widget-header .ui-state-default {
+	background-image: none;
+}
+.ui-datepicker table {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.ui-datepicker-trigger:hover {
+	cursor: pointer;
+}
+.interactive-tool h2 {
+	margin: 0px; padding: 0px; text-align: left; color: rgb(44, 42, 41); line-height: 28px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 21px; max-width: 100%;
+}
+.form-tool {
+	color: rgb(44, 42, 41); line-height: 21px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; max-width: 714px;
+}
+.form-tool span.de-emphasized {
+	font-size: 12px;
+}
+.form-tool span.de-emphasized p {
+	font-size: 12px;
+}
+.form-tool::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.form-tool {
+	
+}
+#fancybox-data {
+	
+}
+.form-tool h2 {
+	color: rgb(44, 42, 41); line-height: 28px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 21px;
+}
+#fancybox-data h2 {
+	color: rgb(44, 42, 41); line-height: 28px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 21px;
+}
+.form-tool p {
+	color: rgb(44, 42, 41); line-height: 21px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+#fancybox-data p {
+	color: rgb(44, 42, 41); line-height: 21px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-tool ul li {
+	color: rgb(44, 42, 41); line-height: 21px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+#fancybox-data ul li {
+	color: rgb(44, 42, 41); line-height: 21px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-tool ol li {
+	color: rgb(44, 42, 41); line-height: 21px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+#fancybox-data ol li {
+	color: rgb(44, 42, 41); line-height: 21px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-tool a {
+	color: rgb(28, 111, 236); text-decoration: none;
+}
+#fancybox-data a {
+	color: rgb(28, 111, 236); text-decoration: none;
+}
+.form-tool a:visited {
+	color: rgb(28, 111, 236);
+}
+#fancybox-data a:visited {
+	color: rgb(28, 111, 236);
+}
+.form-tool a:hover {
+	text-decoration: underline;
+}
+#fancybox-data a:hover {
+	text-decoration: underline;
+}
+.form-tool .tool-intro {
+	margin-bottom: 24px;
+}
+#fancybox-data .tool-intro {
+	margin-bottom: 24px;
+}
+.form-tool .tool-intro .warning {
+	background: url("https://www.mayoclinic.org/IMG-20164234") no-repeat left; padding-left: 32px; font-weight: bold;
+}
+#fancybox-data .tool-intro .warning {
+	background: url("https://www.mayoclinic.org/IMG-20164234") no-repeat left; padding-left: 32px; font-weight: bold;
+}
+.form-tool .tool-fields {
+	width: 444px; margin-right: 24px; float: left;
+}
+#fancybox-data .tool-fields {
+	width: 444px; margin-right: 24px; float: left;
+}
+.form-tool .tool-fields .tool-section {
+	width: 100%; margin-bottom: 16px;
+}
+#fancybox-data .tool-fields .tool-section {
+	width: 100%; margin-bottom: 16px;
+}
+.form-tool .tool-fields .tool-section fieldset {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+#fancybox-data .tool-fields .tool-section fieldset {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+.form-tool .tool-fields .tool-section .label {
+	width: 172px; margin-right: 12px; float: left;
+}
+#fancybox-data .tool-fields .tool-section .label {
+	width: 172px; margin-right: 12px; float: left;
+}
+.form-tool .tool-fields .tool-section .label label {
+	width: 100%; text-align: right; font-size: 14px; font-weight: bold; display: block;
+}
+#fancybox-data .tool-fields .tool-section .label label {
+	width: 100%; text-align: right; font-size: 14px; font-weight: bold; display: block;
+}
+.form-tool .tool-fields .tool-section .label legend {
+	width: 100%; text-align: right; font-size: 14px; font-weight: bold; display: block;
+}
+#fancybox-data .tool-fields .tool-section .label legend {
+	width: 100%; text-align: right; font-size: 14px; font-weight: bold; display: block;
+}
+.form-tool .tool-fields .tool-section .tool-option {
+	width: 260px; float: left;
+}
+#fancybox-data .tool-fields .tool-section .tool-option {
+	width: 260px; float: left;
+}
+.form-tool .tool-fields .tool-section .tool-option p.drug-disclaimer {
+	color: rgb(109, 109, 109); font-size: 13px; margin-top: 6px; margin-bottom: 0px;
+}
+#fancybox-data .tool-fields .tool-section .tool-option p.drug-disclaimer {
+	color: rgb(109, 109, 109); font-size: 13px; margin-top: 6px; margin-bottom: 0px;
+}
+.form-tool .tool-fields .tool-section .tool-option ol {
+	margin: 0px; padding: 0px;
+}
+#fancybox-data .tool-fields .tool-section .tool-option ol {
+	margin: 0px; padding: 0px;
+}
+.form-tool .tool-fields .tool-section .tool-option ol li {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#fancybox-data .tool-fields .tool-section .tool-option ol li {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.form-tool .tool-fields .tool-section .tool-option ol + a {
+	overflow: hidden; clear: both; margin-top: 6px; display: inline-block;
+}
+#fancybox-data .tool-fields .tool-section .tool-option ol + a {
+	overflow: hidden; clear: both; margin-top: 6px; display: inline-block;
+}
+.form-tool .tool-fields .tool-section span.tool-help {
+	color: rgb(128, 128, 128); padding-right: 0px; padding-left: 12px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+#fancybox-data .tool-fields .tool-section span.tool-help {
+	color: rgb(128, 128, 128); padding-right: 0px; padding-left: 12px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-tool .tool-fields .tool-section::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+#fancybox-data .tool-fields .tool-section::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.form-tool .tool-form-toggle {
+	display: none;
+}
+#fancybox-data .tool-form-toggle {
+	display: none;
+}
+.form-tool .tool-result {
+	background: rgb(221, 234, 252); padding: 12px; width: 220px; float: left; display: none;
+}
+#fancybox-data .tool-result {
+	background: rgb(221, 234, 252); padding: 12px; width: 220px; float: left; display: none;
+}
+.form-tool .hide.tool-result {
+	display: none;
+}
+#fancybox-data .hide.tool-result {
+	display: none;
+}
+.form-tool .galad.tool-result h4 {
+	font-size: 16px; font-weight: normal; margin-bottom: 12px;
+}
+#fancybox-data .galad.tool-result h4 {
+	font-size: 16px; font-weight: normal; margin-bottom: 12px;
+}
+.form-tool .galad.tool-result .score {
+	font-size: 24px; font-weight: bold; margin-top: 0px;
+}
+#fancybox-data .galad.tool-result .score {
+	font-size: 24px; font-weight: bold; margin-top: 0px;
+}
+.form-tool .galad.tool-result .hcc {
+	font-size: 24px; font-weight: bold; margin-top: 0px;
+}
+#fancybox-data .galad.tool-result .hcc {
+	font-size: 24px; font-weight: bold; margin-top: 0px;
+}
+.form-tool .galad.tool-result .hcc {
+	padding-bottom: 24px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#fancybox-data .galad.tool-result .hcc {
+	padding-bottom: 24px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.form-tool .tool-result h3 {
+	margin: 0px 0px 12px; padding: 0px 0px 12px; color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#fancybox-data .tool-result h3 {
+	margin: 0px 0px 12px; padding: 0px 0px 12px; color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.form-tool .tool-result span {
+	display: block;
+}
+#fancybox-data .tool-result span {
+	display: block;
+}
+.form-tool .tool-result ul {
+	margin: 0px 0px 0px 24px; padding: 0px;
+}
+#fancybox-data .tool-result ul {
+	margin: 0px 0px 0px 24px; padding: 0px;
+}
+.form-tool .tool-result ul.toggle-tool {
+	display: none;
+}
+#fancybox-data .tool-result ul.toggle-tool {
+	display: none;
+}
+.form-tool .tool-result ul.toggle-tool li {
+	display: none;
+}
+#fancybox-data .tool-result ul.toggle-tool li {
+	display: none;
+}
+.form-tool .tool-result ul.toggle-tool::after {
+	background: none;
+}
+#fancybox-data .tool-result ul.toggle-tool::after {
+	background: none;
+}
+.form-tool .tool-result ul li {
+	margin: 0px 0px 8px; padding: 0px; position: relative;
+}
+#fancybox-data .tool-result ul li {
+	margin: 0px 0px 8px; padding: 0px; position: relative;
+}
+.form-tool .tool-result ul li a {
+	padding-right: 35px;
+}
+#fancybox-data .tool-result ul li a {
+	padding-right: 35px;
+}
+.form-tool .tool-result .toggle-tool {
+	color: rgb(28, 111, 236); margin-left: 0px; display: block;
+}
+#fancybox-data .tool-result .toggle-tool {
+	color: rgb(28, 111, 236); margin-left: 0px; display: block;
+}
+.form-tool .tool-result .toggle-tool li {
+	list-style: none;
+}
+#fancybox-data .tool-result .toggle-tool li {
+	list-style: none;
+}
+.form-tool .tool-result .toggle-tool:visited {
+	color: rgb(28, 111, 236);
+}
+#fancybox-data .tool-result .toggle-tool:visited {
+	color: rgb(28, 111, 236);
+}
+.form-tool .tool-result .toggle-tool::after {
+	background: url("https://www.mayoclinic.org/IMG-20149203") no-repeat -88px -28px; top: 2px; width: 20px; height: 20px; right: 16px; margin-top: -3px; position: absolute; content: "";
+}
+#fancybox-data .tool-result .toggle-tool::after {
+	background: url("https://www.mayoclinic.org/IMG-20149203") no-repeat -88px -28px; top: 2px; width: 20px; height: 20px; right: 16px; margin-top: -3px; position: absolute; content: "";
+}
+.form-tool .tool-result .on.toggle-tool {
+	margin-bottom: 6px;
+}
+#fancybox-data .tool-result .on.toggle-tool {
+	margin-bottom: 6px;
+}
+.form-tool .tool-result .on.toggle-tool::after {
+	background: url("https://www.mayoclinic.org/IMG-20149203") no-repeat -112px -28px;
+}
+#fancybox-data .tool-result .on.toggle-tool::after {
+	background: url("https://www.mayoclinic.org/IMG-20149203") no-repeat -112px -28px;
+}
+.form-tool .tool-result .on.toggle-tool + div {
+	margin-bottom: 12px;
+}
+#fancybox-data .tool-result .on.toggle-tool + div {
+	margin-bottom: 12px;
+}
+.form-tool .tool-result .toggle-tool + div {
+	display: none;
+}
+#fancybox-data .tool-result .toggle-tool + div {
+	display: none;
+}
+.form-tool .tool-result div h4 {
+	padding-right: 0px;
+}
+#fancybox-data .tool-result div h4 {
+	padding-right: 0px;
+}
+.form-tool .tool-result div p {
+	padding-right: 0px;
+}
+#fancybox-data .tool-result div p {
+	padding-right: 0px;
+}
+.form-tool label {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+#fancybox-data label {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-tool input {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+#fancybox-data input {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-tool textarea {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+#fancybox-data textarea {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-tool dropdown {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+#fancybox-data dropdown {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-tool select {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+#fancybox-data select {
+	color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-tool text-area {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+#fancybox-data text-area {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.form-tool :-ms-input-placeholder {
+	color: rgb(190, 190, 190);
+}
+#fancybox-data :-ms-input-placeholder {
+	color: rgb(190, 190, 190);
+}
+.form-tool input[type='text'] {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 130px; box-sizing: border-box;
+}
+#fancybox-data input[type='text'] {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 130px; box-sizing: border-box;
+}
+.form-tool input[type='number'] {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 130px; box-sizing: border-box;
+}
+#fancybox-data input[type='number'] {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 130px; box-sizing: border-box;
+}
+.form-tool input[type='text'].date-picker {
+	margin-right: 6px;
+}
+#fancybox-data input[type='text'].date-picker {
+	margin-right: 6px;
+}
+.form-tool input[type='number'].date-picker {
+	margin-right: 6px;
+}
+#fancybox-data input[type='number'].date-picker {
+	margin-right: 6px;
+}
+.form-tool input[type='number'] {
+	-moz-appearance: textfield;
+}
+#fancybox-data input[type='number'] {
+	-moz-appearance: textfield;
+}
+.form-tool input[type='number']:hover {
+	-moz-appearance: textfield;
+}
+#fancybox-data input[type='number']:hover {
+	-moz-appearance: textfield;
+}
+.form-tool input[type='number']:focus {
+	-moz-appearance: textfield;
+}
+#fancybox-data input[type='number']:focus {
+	-moz-appearance: textfield;
+}
+.form-tool textarea {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 100%; box-sizing: border-box;
+}
+#fancybox-data textarea {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 100%; box-sizing: border-box;
+}
+.form-tool .tool-buttons {
+	padding: 24px 0px 0px 184px;
+}
+#fancybox-data .tool-buttons {
+	padding: 24px 0px 0px 184px;
+}
+.form-tool .tool-buttons a:visited {
+	color: rgb(255, 255, 255);
+}
+#fancybox-data .tool-buttons a:visited {
+	color: rgb(255, 255, 255);
+}
+.form-tool .tool-primary {
+	padding: 12px 24px; border-radius: 3px; border: currentColor; border-image: none; color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-appearance: none;
+}
+#fancybox-data .tool-primary {
+	padding: 12px 24px; border-radius: 3px; border: currentColor; border-image: none; color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-appearance: none;
+}
+.form-tool .tool-secondary {
+	padding: 12px 24px; border-radius: 3px; border: currentColor; border-image: none; color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-appearance: none;
+}
+#fancybox-data .tool-secondary {
+	padding: 12px 24px; border-radius: 3px; border: currentColor; border-image: none; color: rgb(44, 42, 41); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-appearance: none;
+}
+.form-tool .tool-primary {
+	background: rgb(0, 70, 173); color: rgb(255, 255, 255); margin-right: 6px;
+}
+#fancybox-data .tool-primary {
+	background: rgb(0, 70, 173); color: rgb(255, 255, 255); margin-right: 6px;
+}
+.form-tool a.tool-primary:hover {
+	text-decoration: none;
+}
+#fancybox-data a.tool-primary:hover {
+	text-decoration: none;
+}
+.form-tool .tool-secondary {
+	background: rgb(255, 255, 255); color: rgb(0, 70, 173); padding-left: 12px;
+}
+#fancybox-data .tool-secondary {
+	background: rgb(255, 255, 255); color: rgb(0, 70, 173); padding-left: 12px;
+}
+.form-tool a.tool-secondary:visited {
+	color: rgb(0, 70, 173);
+}
+#fancybox-data a.tool-secondary:visited {
+	color: rgb(0, 70, 173);
+}
+.form-tool .error-global {
+	padding: 12px 0px 12px 50px; margin-bottom: 24px; display: none; position: relative;
+}
+#fancybox-data .error-global {
+	padding: 12px 0px 12px 50px; margin-bottom: 24px; display: none; position: relative;
+}
+.form-tool .error-global p {
+	margin: 0px; padding: 0px; color: rgb(224, 43, 43);
+}
+#fancybox-data .error-global p {
+	margin: 0px; padding: 0px; color: rgb(224, 43, 43);
+}
+.form-tool .error-global p::after {
+	background: url("https://www.mayoclinic.org/IMG-20146862") no-repeat 0px 0px; left: 16px; top: 12px; width: 28px; height: 28px; display: block; position: absolute; content: "";
+}
+#fancybox-data .error-global p::after {
+	background: url("https://www.mayoclinic.org/IMG-20146862") no-repeat 0px 0px; left: 16px; top: 12px; width: 28px; height: 28px; display: block; position: absolute; content: "";
+}
+.form-tool .error-message {
+	background: url("https://www.mayoclinic.org/IMG-20146862") no-repeat -38px 3px; margin: 12px 0px 0px; padding: 0px 0px 0px 24px; color: rgb(224, 43, 43); display: none;
+}
+#fancybox-data .error-message {
+	background: url("https://www.mayoclinic.org/IMG-20146862") no-repeat -38px 3px; margin: 12px 0px 0px; padding: 0px 0px 0px 24px; color: rgb(224, 43, 43); display: none;
+}
+.tool-footer {
+	margin-top: 36px; float: left; max-width: 714px;
+}
+.tool-footer p {
+	width: 100%; color: rgb(109, 109, 109); font-size: 13px; margin-top: 0px; margin-bottom: 6px;
+}
+.tool-footer ul li {
+	width: 100%; color: rgb(109, 109, 109); font-size: 13px; margin-top: 0px; margin-bottom: 6px;
+}
+.ui-datepicker table {
+	font-size: 13px;
+}
+.ui-datepicker .ui-datepicker-title {
+	font-size: 13px;
+}
+.ui-datepicker {
+	width: auto;
+}
+.ui-datepicker table {
+	overflow: hidden;
+}
+@media only screen and (max-width:739px)
+{
+.km-intranet .form-tool {
+	width: auto; padding-bottom: 36px; clear: both; float: none;
+}
+.responsive.form-tool {
+	width: auto; padding-bottom: 36px; clear: both; float: none;
+}
+.km-intranet .form-tool .w {
+	width: auto; clear: both; float: none;
+}
+.responsive.form-tool .w {
+	width: auto; clear: both; float: none;
+}
+.km-intranet .form-tool .tool-fields {
+	width: auto; clear: both; float: none;
+}
+.responsive.form-tool .tool-fields {
+	width: auto; clear: both; float: none;
+}
+.km-intranet .form-tool .tool-result {
+	width: auto; clear: both; float: none;
+}
+.responsive.form-tool .tool-result {
+	width: auto; clear: both; float: none;
+}
+.km-intranet .form-tool .tool-buttons {
+	padding-left: 0px;
+}
+.responsive.form-tool .tool-buttons {
+	padding-left: 0px;
+}
+.km-intranet .form-tool .tool-fields {
+	margin: 0px 0px 24px;
+}
+.responsive.form-tool .tool-fields {
+	margin: 0px 0px 24px;
+}
+.km-intranet .form-tool .tool-fields .tool-section .label {
+	width: auto; clear: both; margin-bottom: 6px; float: none;
+}
+.responsive.form-tool .tool-fields .tool-section .label {
+	width: auto; clear: both; margin-bottom: 6px; float: none;
+}
+.km-intranet .form-tool .tool-fields .tool-section .tool-option {
+	width: auto; clear: both; margin-bottom: 6px; float: none;
+}
+.responsive.form-tool .tool-fields .tool-section .tool-option {
+	width: auto; clear: both; margin-bottom: 6px; float: none;
+}
+.km-intranet .form-tool .tool-fields .tool-section .label label {
+	width: auto; text-align: left; clear: both; float: none;
+}
+.responsive.form-tool .tool-fields .tool-section .label label {
+	width: auto; text-align: left; clear: both; float: none;
+}
+.km-intranet .form-tool .tool-fields .tool-section .tool-option label {
+	width: auto; text-align: left; clear: both; float: none;
+}
+.responsive.form-tool .tool-fields .tool-section .tool-option label {
+	width: auto; text-align: left; clear: both; float: none;
+}
+.km-intranet .form-tool .tool-fields .tool-section .label legend {
+	width: auto; text-align: left; clear: both; float: none;
+}
+.responsive.form-tool .tool-fields .tool-section .label legend {
+	width: auto; text-align: left; clear: both; float: none;
+}
+.km-intranet .form-tool .tool-fields .tool-section .tool-option legend {
+	width: auto; text-align: left; clear: both; float: none;
+}
+.responsive.form-tool .tool-fields .tool-section .tool-option legend {
+	width: auto; text-align: left; clear: both; float: none;
+}
+.km-intranet .form-tool .tool-footer {
+	width: auto; clear: both; float: none;
+}
+.responsive.form-tool .tool-footer {
+	width: auto; clear: both; float: none;
+}
+.km-intranet .form-tool input[type='text'] {
+	width: 80%;
+}
+.responsive.form-tool input[type='text'] {
+	width: 80%;
+}
+.km-intranet .form-tool input[type='number'] {
+	width: 80%;
+}
+.responsive.form-tool input[type='number'] {
+	width: 80%;
+}
+.km-intranet .form-tool .tool-fields .tool-section span.tool-help {
+	padding-left: 0px; margin-top: 6px; display: block;
+}
+.responsive.form-tool .tool-fields .tool-section span.tool-help {
+	padding-left: 0px; margin-top: 6px; display: block;
+}
+.km-intranet .form-tool #fancybox-data .tool-fields .tool-section span.tool-help {
+	padding-left: 0px; margin-top: 6px; display: block;
+}
+.responsive.form-tool #fancybox-data .tool-fields .tool-section span.tool-help {
+	padding-left: 0px; margin-top: 6px; display: block;
+}
+}
+:-ms-input-placeholder {
+	color: rgb(176, 176, 176);
+}
+.calculator {
+	background: url("https://www.mayoclinic.org/IMG-20164218") no-repeat left; padding-left: 16px;
+}
+#topic-body .form-tool .tool-result div h4 {
+	padding-right: 0px;
+}
+#topic-body .form-tool .tool-result div p {
+	padding-right: 0px;
+}
+#topic-body .form-tool .tool-result h3 {
+	padding-right: 0px;
+}
+#topic-body .form-tool .tool-result span p {
+	padding-right: 0px;
+}
+#topic-body .form-tool .tool-result ul {
+	padding-right: 0px;
+}
+body.media .form-tool .tool-fields {
+	width: 364px;
+}
+body.media .form-tool .tool-fields .tool-section .label {
+	width: 122px;
+}
+body.media .form-tool .tool-fields .tool-section .tool-option {
+	width: 220px;
+}
+body.media .form-tool .tool-buttons {
+	padding-left: 132px;
+}

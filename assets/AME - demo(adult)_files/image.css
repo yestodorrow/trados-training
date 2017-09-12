@@ -1,0 +1,33 @@
+.ame-km-image {
+	margin: 24px 0px;
+}
+.img-9col.ame-km-image {
+	max-width: 714px;
+}
+.img-7col.ame-km-image {
+	max-width: 550px;
+}
+.img-5col.ame-km-image {
+	max-width: 386px;
+}
+.img-4col.ame-km-image {
+	max-width: 304px;
+}
+.ame-km-image img {
+	height: auto; max-width: 100%;
+}
+.ame-km-image .img-caption {
+	padding: 12px 0px; color: rgb(129, 131, 133); line-height: 18px; font-size: 12px; border-bottom-color: rgb(213, 213, 208); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ame-km-image .img-caption h3 {
+	margin: 0px; color: rgb(44, 42, 41); line-height: 21px; font-size: 14px; font-weight: bold;
+}
+.ame-km-image p {
+	margin: 0px; padding: 0px; color: rgb(129, 131, 133); line-height: 18px; font-size: 12px;
+}
+.kcms-content .img-caption p {
+	padding: 0px;
+}
+.kcms-content .img-caption h3 {
+	padding: 0px;
+}

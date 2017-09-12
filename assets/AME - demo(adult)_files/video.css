@@ -1,0 +1,30 @@
+.img-9col.containing-block {
+	width: 714px;
+}
+.img-7col.containing-block {
+	width: 550px;
+}
+.img-5col.containing-block {
+	width: 386px;
+}
+.img-4col.containing-block {
+	width: 304px;
+}
+.img-9col.responsive.containing-block {
+	width: auto; max-width: 714px;
+}
+.img-7col.responsive.containing-block {
+	width: auto; max-width: 550px;
+}
+.img-5col.responsive.containing-block {
+	width: auto; max-width: 386px;
+}
+.img-4col.responsive.containing-block {
+	width: auto; max-width: 304px;
+}
+.outer-container {
+	height: 0px; padding-bottom: 56.25%; position: relative;
+}
+.BrightcoveExperience {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}

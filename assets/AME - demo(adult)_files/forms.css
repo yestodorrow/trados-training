@@ -1,0 +1,189 @@
+.zero {
+	margin: 0px; padding: 0px;
+}
+.borderbox {
+	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.notext {
+	text-indent: 100%; overflow: hidden; white-space: nowrap;
+}
+.bottmargin {
+	margin: 0px 0px 18px; padding: 0px;
+}
+.clearfix {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.browserinfo {
+	padding: 24px; border: 1px solid rgb(204, 204, 204); border-image: none; display: block;
+}
+.shadow {
+	box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.13); -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.13); -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.13);
+}
+.rounded {
+	border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.section-content {
+	clear: both;
+}
+.section-content :last-child.col {
+	margin-right: 0px;
+}
+.span-1 {
+	width: 6.04%;
+}
+.span-2 {
+	width: 14.58%;
+}
+.span-3 {
+	width: 23.12%;
+}
+.span-4 {
+	width: 31.66%;
+}
+.span-5 {
+	width: 40.2%;
+}
+.span-6 {
+	width: 48.75%;
+}
+.span-7 {
+	width: 57.29%;
+}
+.span-8 {
+	width: 65.83%;
+}
+.span-9 {
+	width: 74.37%;
+}
+.span-10 {
+	width: 82.91%;
+}
+.span-11 {
+	width: 91.45%;
+}
+.span-12 {
+	width: 100%;
+}
+.form-fields {
+	width: 100%; font-size: 1.4rem; margin-right: 24px; float: left;
+}
+.form-fields .form-section {
+	width: 100%; margin-bottom: 16px;
+}
+.form-fields .form-section fieldset {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+.form-fields .form-section .label {
+	width: 14.58%; margin-right: 12px; float: left;
+}
+.form-fields .form-section .label label {
+	width: 100%; text-align: right; font-size: 14px; font-weight: bold; margin-bottom: 0px; display: block;
+}
+.form-fields .form-section .label legend {
+	width: 100%; text-align: right; font-size: 14px; font-weight: bold; margin-bottom: 0px; display: block;
+}
+.form-fields .form-section .label h2 {
+	width: 100%; text-align: right; font-size: 14px; font-weight: bold; margin-bottom: 0px; display: block;
+}
+.form-fields .form-section .form-option {
+	width: 82.91%; line-height: 28px; float: left;
+}
+.form-fields .form-section .form-option ol {
+	margin: 0px; padding: 0px;
+}
+.form-fields .form-section .form-option ol li {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.form-fields .form-section .form-option ol + a {
+	overflow: hidden; clear: both; margin-top: 6px; display: inline-block;
+}
+.form-fields .form-section span.form-help {
+	color: rgb(128, 128, 128); padding-left: 12px; font-size: 14px;
+}
+.form-fields .form-section span.block.form-help {
+	margin: 12px 0px 0px; padding: 0px; display: block;
+}
+.form-fields .form-section::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.form-fields label {
+	font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-fields input {
+	font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-fields textarea {
+	font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-fields dropdown {
+	font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-fields select {
+	font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+}
+.form-fields input[type='text'] {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 65.83%; box-sizing: border-box;
+}
+.form-fields input[type='text'].date-picker {
+	margin-right: 6px;
+}
+.form-fields textarea {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 100%; height: 100px; font-family: "Helvetica Neue", Arial, sans-serif; box-sizing: border-box;
+}
+.form-fields .error-message {
+	background: url("http://www.mayoclinic.org/IMG-20146862") no-repeat -38px 5px; margin: 12px 0px 0px; padding: 0px 0px 0px 24px; color: rgb(224, 43, 43);
+}
+.form-buttons {
+	padding: 24px 0px 0px 16.08%;
+}
+.form-buttons .form-primary {
+	padding: 12px 24px; border-radius: 3px; border: currentColor; border-image: none; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 1.4rem; cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.form-buttons .form-secondary {
+	padding: 12px 24px; border-radius: 3px; border: currentColor; border-image: none; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 1.4rem; cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.form-buttons .form-primary {
+	background: rgb(0, 70, 173); color: rgb(255, 255, 255); margin-right: 6px;
+}
+.form-buttons .form-secondary {
+	background: rgb(255, 255, 255); color: rgb(0, 70, 173); padding-left: 12px;
+}
+.ui-datepicker {
+	width: 230px;
+}
+.ui-datepicker table {
+	font-size: 13px; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.ui-datepicker .ui-datepicker-title {
+	font-size: 13px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	width: 1.5em; height: 1.5em;
+}
+.ui-datepicker .ui-datepicker-next {
+	width: 1.5em; height: 1.5em;
+}
+.ui-datepicker .ui-widget-header .ui-icon {
+	background-image: url("http://www.mayoclinic.org/IMG-20146865");
+}
+.ui-datepicker .ui-widget-header {
+	background-image: none;
+}
+.ui-datepicker .ui-state-default {
+	background-image: none;
+}
+.ui-datepicker .ui-widget-content .ui-state-default {
+	background-image: none;
+}
+.ui-datepicker .ui-widget-header .ui-state-default {
+	background-image: none;
+}
+.error-global {
+	padding: 12px 0px 12px 50px; margin-bottom: 24px; position: relative;
+}
+.error-global p {
+	margin: 0px; padding: 0px; color: rgb(224, 43, 43);
+}
+.error-global p::after {
+	background: url("http://www.mayoclinic.org/IMG-20146862") no-repeat 0px 0px; left: 16px; top: 18px; width: 28px; height: 28px; display: block; position: absolute; content: "";
+}

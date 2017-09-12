@@ -1,0 +1,246 @@
+.ame-km-table {
+	margin: 24px 0px;
+}
+.ame-km-table h3 {
+	margin: 0px; padding: 0px 0px 18px !important;
+}
+.ame-km-table .table-caption {
+	margin: 18px 0px; color: rgb(30, 30, 30); line-height: 18px; font-size: 12px; max-width: 714px;
+}
+.ame-km-table .citations {
+	margin: 18px 0px; color: rgb(30, 30, 30); line-height: 18px; font-size: 12px; max-width: 714px;
+}
+.ame-km-table .table-caption p {
+	margin: 0px; padding: 0px; line-height: 18px; font-size: 12px;
+}
+.ame-km-table .citations p {
+	margin: 0px; padding: 0px; line-height: 18px; font-size: 12px;
+}
+table {
+	line-height: 18px; font-size: 14px; display: block; border-collapse: collapse; -ms-overflow-x: auto; max-width: 100%; border-spacing: 0;
+}
+table p {
+	line-height: 18px; font-size: 14px; margin-top: 0px;
+}
+table li {
+	line-height: 18px; font-size: 14px;
+}
+table thead th {
+	padding: 18px 12px; text-align: left; font-weight: bold; vertical-align: top; border-top-color: rgb(126, 127, 116); border-bottom-color: rgb(126, 127, 116); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table thead th span.deemphasize {
+	font-weight: normal;
+}
+table thead th ul li {
+	margin-left: 18px;
+}
+table thead th ol li {
+	margin-left: 18px;
+}
+table tbody th {
+	padding: 12px; text-align: left; font-weight: bold; vertical-align: top; border-bottom-color: rgb(213, 213, 208); border-bottom-width: 1px; border-bottom-style: solid;
+}
+table tbody th ul li {
+	margin-left: 18px;
+}
+table tbody th ol li {
+	margin-left: 18px;
+}
+table tbody td {
+	padding: 12px; vertical-align: top; border-bottom-color: rgb(213, 213, 208); border-bottom-width: 1px; border-bottom-style: solid;
+}
+table tbody td ul li {
+	margin-left: 18px;
+}
+table tbody td ol li {
+	margin-left: 18px;
+}
+table tbody td.vertical-align-middle {
+	vertical-align: middle;
+}
+.column {
+	max-width: 550px;
+}
+.zebra tbody tr:nth-child(2n+1) {
+	background: rgb(241, 241, 239);
+}
+.zebra table thead th:first-child {
+	padding-left: 12px;
+}
+.zebra table tbody td:first-child {
+	padding-left: 12px;
+}
+.vertical-lines thead th {
+	border-left-color: rgb(213, 213, 208); border-left-width: 1px; border-left-style: solid;
+}
+.vertical-lines tbody td {
+	border-left-color: rgb(213, 213, 208); border-left-width: 1px; border-left-style: solid;
+}
+.vertical-lines tbody th {
+	border-left-color: rgb(213, 213, 208); border-left-width: 1px; border-left-style: solid;
+}
+.vertical-lines thead th:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.vertical-lines tbody td:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.vertical-lines tbody th:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.sticky table thead th {
+	background: rgb(255, 255, 255);
+}
+.scrollable {
+	position: relative;
+}
+.scrollable .shaded {
+	top: 0px; width: 10px; right: 0px; bottom: 0px; position: absolute; opacity: 1; background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1)); background-color: transparent;
+}
+.km-alpha {
+	margin: 0px 0px 12px; padding: 0px; overflow: hidden;
+}
+.km-alpha li {
+	border-width: medium 1px medium medium; border-style: none solid none none; border-color: currentColor rgb(210, 210, 210) currentColor currentColor; list-style: none; margin: 0px 5px 12px 0px; padding: 0px; border-image: none; font-size: 18px; float: left;
+}
+.km-alpha li a {
+	padding: 2px 10px 2px 5px; color: rgb(0, 70, 173); display: inline-block;
+}
+.km-alpha li span {
+	padding: 2px 10px 2px 5px; color: rgb(0, 70, 173); display: inline-block;
+}
+.km-alpha li a:hover {
+	text-decoration: underline;
+}
+.km-alpha li span:hover {
+	text-decoration: underline;
+}
+.km-alpha li a:focus {
+	text-decoration: underline;
+}
+.km-alpha li span:focus {
+	text-decoration: underline;
+}
+.km-alpha li a:visited {
+	color: rgb(0, 70, 173);
+}
+.km-alpha li span:visited {
+	color: rgb(0, 70, 173);
+}
+.km-alpha li a.select {
+	text-decoration: underline;
+}
+.km-alpha li span.select {
+	text-decoration: underline;
+}
+.km-alpha li span {
+	color: rgb(213, 213, 208);
+}
+.km-alpha li span:hover {
+	text-decoration: none;
+}
+.km-alpha li span:focus {
+	text-decoration: none;
+}
+.kcms-content .ame-km-table {
+	margin-top: 0px;
+}
+.flat-preview .ame-km-table {
+	margin-top: 0px;
+}
+.kcms-content table {
+	max-width: 100%;
+}
+.flat-preview table {
+	max-width: 100%;
+}
+nav.left-navigation + main .kcms-content .kcms-content table {
+	max-width: 100%;
+}
+.topic-body-container #topic-body .ame-km-table p {
+	padding-right: 0px;
+}
+.topic-body-container #topic-body .ame-km-image p {
+	padding-right: 0px;
+}
+.topic-body-container #topic-body .ame-km-image h3 {
+	padding-right: 0px;
+}
+.topic-body-container #topic-body .ame-km-callout p {
+	padding-right: 0px;
+}
+.topic-body-container #topic-body .ame-km-table td ul {
+	padding-right: 0px;
+}
+.topic-body-container #topic-body .ame-km-table td ol {
+	padding-right: 0px;
+}
+.topic-body-container #topic-body .ame-km-callout ul {
+	padding-right: 0px;
+}
+.cpm-table {
+	margin: 24px 0px 0px;
+}
+.cpm-table h3 {
+	padding: 0px 0px 18px !important;
+}
+.cpm-table table {
+	margin: 0px 0px 24px; line-height: 18px; font-size: 14px; border-top-color: rgb(126, 127, 116); border-bottom-color: rgb(126, 127, 116); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; max-width: 960px;
+}
+.cpm-table td {
+	border: 1px solid rgb(213, 213, 208); border-image: none;
+}
+.cpm-table th {
+	border-right-color: rgb(126, 127, 116); border-right-width: 1px; border-right-style: solid;
+}
+.cpm-table tbody {
+	border-top-color: rgb(126, 127, 116); border-bottom-color: rgb(126, 127, 116); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.cpm-table tbody :last-child {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.cpm-table tbody :first-child {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.cpm-table thead th {
+	padding: 18px 12px; text-align: left; font-weight: bold; vertical-align: top; border-right-color: rgb(213, 213, 208); border-bottom-color: rgb(126, 127, 116); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.cpm-table thead :last-child {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.cpm-table .deemphasize {
+	font-weight: normal; margin-left: 12px; float: left;
+}
+#cpm-table-body {
+	width: 960px; padding-top: 36px; margin-top: 36px; border-top-color: rgb(186, 187, 177); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+#cpm-table-body .cpm-table-caption {
+	color: rgb(115, 118, 120); line-height: 21px; font-size: 14px;
+}
+.clinical-trials table {
+	width: 100%; display: table;
+}
+.clinical-trials table thead th {
+	border-top-color: rgb(186, 187, 177); border-bottom-color: rgb(186, 187, 177); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(244, 248, 255);
+}
+.clinical-trials table thead th:first-child {
+	padding-left: 12px;
+}
+.clinical-trials table tbody td:first-child {
+	padding-left: 12px;
+}
+.clinical-trials table tbody h4 {
+	margin: 0px; padding: 0px;
+}
+.clinical-trials table tbody h4.contact {
+	display: none;
+}
+.clinical-trials table tbody p {
+	margin: 0px; padding: 0px;
+}
+.clinical-trials table tbody ul {
+	margin: 0px; list-style-type: none;
+}
+.clinical-trials table tbody ul li {
+	margin: 0px; padding: 0px;
+}
